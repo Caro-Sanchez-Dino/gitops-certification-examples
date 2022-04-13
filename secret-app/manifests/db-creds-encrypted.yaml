@@ -1,1 +1,17 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: mysql-credentials
+  namespace: default
+spec:
+  encryptedData:
+    connection: AgBlnfG431GD2yV88j4YNk2cE7acHP5uixo9VMs/TrVd+BiETElI0foWNRf67Gp/Xge541pnRCFzo+qo7a/6/2NdtOspkvhv45bamftdu38YsauNDVRaa3RbaSjQr6mWTao/fYZDTBfuvzK8sBdrihGKRiNrfwcjGNVx7XDcJuU4k/kKNEwTZ4waKXSaCQFPe8bc4BPRkl086OGxNAacnnhkivps5Lyp3a1dmX3QvZQhNnHVlyYYPI0pA8yTsj4yXOjm7z+vCH3E25dkmtTDov1YBuKH+xslK65XLSnZm2PPO36I0VKDZTvXhfgs+CQ7zkLQsX…FZNcJf+ph7GXw4IliO6OptUCiJ+PRKUrHCXMouMH6IHXjZhixOTzD5X4wwM41Rh8j7Dyrsvi2DjVOe9vrCSoRJ5kko92VghD9dgmrfNxbK07ndW3/hZtqbb7Mbhw0xEJ+OXzcTeRCyil6vg+v9D+jKuvrKp2xBk3RHjDkRkMSYhwyncrmMmpDtOhUSbAMuQ8S11Z1MsmMgzo6Z9Tzpw7RY3VWdyRF3KenMkegpNzwNO3eVnPa4QXgfSWrECx+drrtggvqhW0Q58I2wkGuet8lHHib2PROMeF/NyoPh1CYDzPeM93KLK43CpUCzXy09JncehExeawY7mLVVxgv2CNjaV4E/BtmXJ7w==
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      name: mysql-credentials
+      namespace: default
+    type: Opaque
 
